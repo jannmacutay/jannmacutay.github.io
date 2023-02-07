@@ -4,17 +4,69 @@
 // // font-family: 'Lalezar', cursive;
 // }
 
-.head-txt{
+.head-txt {
     font-family: 'Bebas Neue', cursive;
     font-size: 7em;
     text-shadow: 2px 2px 5px #D5790D
 }
 
-.box-freemember{
-    width: 50%;
-    padding: 2%
+.header-cover img {
+    width: 80%;
 }
 
-.box-freemember h2{
+.yw-section_2 {
+    padding: 0% 0% 1% 0%;
+}
+
+
+.box-freemember {
+    width: 60%;
+    padding: 4%;
+    border-radius: 3px;
+}
+
+.box-freemember h2 {
     padding-bottom: 2rem
+}
+
+
+.box-freemember button {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.box-freemember button:hover {
+    border-color: #D5790D
+}
+
+.yw-section_3 {
+    border-radius: 25% 10%;
+}
+
+.portfolio-select {
+    text-transform: uppercase
+}
+
+footer {
+    color: #42150A;
+    background-color: #fff;
+    border-radius: 0% 50%;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list a {
+    color: #42150A;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    text-decoration: underline
+}
+
+#subscribe-btn:hover {
+    background-color: #42150A;
+    color: #fff;
 }
