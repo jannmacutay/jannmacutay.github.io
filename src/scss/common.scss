@@ -45,7 +45,8 @@ body {
 }
 
 #myNavBar {
-	transition: box-shadow 0.5s ease
+	transition: box-shadow 0.5s ease;
+	height: 100px
 }
 
 .myStickyNav {
@@ -102,7 +103,7 @@ body {
 }
 
 main {
-	padding-bottom: 1%;
+	padding: 1% 1%;
 }
 
 .pull-items-right {
@@ -115,4 +116,33 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.txt-justify {
+	text-align: justify;
+}
+
+
+footer {
+	color: #42150A;
+	background-color: #fff;
+	border-radius: 0% 50%;
+}
+
+.footer-list {
+	list-style: none;
+}
+
+.footer-list a {
+	color: #42150A;
+	text-decoration: none;
+}
+
+.footer-list a:hover {
+	text-decoration: underline
+}
+
+#subscribe-btn:hover {
+	background-color: #42150A;
+	color: #fff;
 }
