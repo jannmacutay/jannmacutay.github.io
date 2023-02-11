@@ -55,7 +55,7 @@
                                         <a class="nav-link disabled" href="#">Careers</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">REGISTER</a>
+                                        <a class="nav-link" href="#">MEMBERSHIP</a>
                                     </li>
                                 </ul>
                             </div>

@@ -80,18 +80,18 @@ body {
 	color: #d5790d;
 }
 
-.navbar-nav {
+#myNavBar .navbar-nav {
 	border-top: 1px solid #d5790d;
 	text-transform: uppercase;
 }
 
-.nav-link {
+#myNavBar .nav-link {
 	letter-spacing: 2px;
 	color: black;
 	font-weight: 900;
 }
 
-.active,
+#myNavBar .active,
 .nav-link:hover {
 	text-decoration: underline;
 	color: #42150A !important

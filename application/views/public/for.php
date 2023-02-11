@@ -1,26 +1,39 @@
 <link rel="stylesheet" media="all" href="dist/css/for.min.css">
 
 <body class="bg-light-o">
-    <nav class="sticky-top py-2 bg-light border-bottom">
+    <nav class="sticky-top py-2 bg-orange border-bottom">
         <div class="container d-flex flex-wrap">
             <ul class="nav me-auto">
-                <li class="nav-item"><a href="home" class="nav-link link-dark px-2" aria-current="page"> <em
+                <li class="nav-item"><a href="home" class="nav-link link-light px-2" aria-current="page"> <em
                             class="bi bi-house"> </em> Home</a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2 disabled"><em class="bi bi-pencil">
+                <li class="nav-item"><a href="#" class="nav-link link-light px-2 disabled"><em class="bi bi-pencil">
                         </em>Edit</a></li>
                 <li class="nav-item"><a href="#" onclick="printContent('portfolio');"
-                        class="nav-link link-dark px-2"><em class="bi bi-printer"> </em>Print</a></li>
+                        class="nav-link link-light px-2"><em class="bi bi-printer"> </em>Print</a></li>
             </ul>
 
-            <form class="" role="search">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                    <option selected>Jump to</option>
-                    <option value="1">Career Objectives</option>
-                    <option value="2">Personal Information</option>
-                    <option value="3">Educational Background</option>
-                </select>
-            </form>
+            <ul id="jumpto" class="nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Jump to</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#objective">Career Objectives</a></li>
+                        <li><a class="dropdown-item" href="#personal-info">Personal Information</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#educ-bg">Educational Background</a></li>
+                        <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                        <li><a class="dropdown-item" href="#trainings">Seminars/trainings/workshops attended</a></li>
+                        <li><a class="dropdown-item" href="#awards">Awards</a></li>
+                        <li><a class="dropdown-item" href="#work">Work Experiences</a></li>
+                        <li><a class="dropdown-item" href="#affiliation">Affilication</a></li>
+                        <li><a class="dropdown-item" href="#ref">Character References</a></li>
+                    </ul>
+                </li>
+            </ul>
+
         </div>
     </nav>
     <header class="py-3 mb-4 border-bottom">
@@ -34,14 +47,15 @@
 
                 <ul class="col-sm-6 nav col-lg-auto mb-3 mb-lg-0">
                     <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Membership</a></li>
                 </ul>
 
             </div>
         </div>
     </header>
     <main>
-        <section id="portfolio" class="bg-white">
+        <section data-bs-spy="scroll" data-bs-target="#jumpto" data-bs-smooth-scroll="true" id="portfolio"
+            class="bg-white">
             <div id="initial">
                 <div class="row">
                     <div class="col-sm-8">
@@ -223,7 +237,7 @@
                 </ul>
             </div>
             <hr>
-            <div id="char-ref">
+            <div id="ref">
                 <h3> Character references</h3>
                 <table width="100%" class="table table-bordered">
                     <thead>
