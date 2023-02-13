@@ -8,3 +8,6 @@ body{font-family:"Titillium Web",sans-serif}.bg-maroon{background-color:#42150a;
     color: #d5790d;
 }
 
+#jumpto{
+    justify-content: end;
+}
